@@ -1,31 +1,26 @@
-import { A } from '@solidjs/router';
-import Counter from '~/components/Counter';
-
 export default function Home() {
+  const onClick = () => {
+    console.log('Clicked');
+  };
+
   return (
-    <main class="text-center mx-auto text-gray-700 p-4">
-      <h1 class="max-6-xs text-6xl text-sky-700 font-thin uppercase my-16">
-        Hello world!
-      </h1>
-      <Counter />
-      <p class="mt-8">
-        Visit{' '}
-        <a
-          href="https://solidjs.com"
-          target="_blank"
-          class="text-sky-600 hover:underline"
+    <div class="h-screen flex flex-col bg-red-500">
+      <div class="container m-auto">
+        <h2 class="font-mono text-6xl mb-8 flex flex-row justify-center">
+          Devo ir pra&nbsp;<p class="font-semibold">UDESC</p>&nbsp;hoje?
+        </h2>
+        <h1 class="font-bold text-balance text-8xl text-center">Não</h1>
+        <button
+          class="flex flex-row font-mono mt-8 w-full justify-center"
+          onClick={onClick}
         >
-          solidjs.com
-        </a>{' '}
-        to learn how to build Solid apps.
-      </p>
-      <p class="my-4">
-        <span>Home</span>
-        {' - '}
-        <A href="/about" class="text-sky-600 hover:underline">
-          About Page
-        </A>{' '}
-      </p>
-    </main>
+          Pressione&nbsp;
+          <div class="rounded outline outline-2 outline-offset-2 outline-neutral-400">
+            Espaço
+          </div>
+          &nbsp;ou clique aqui
+        </button>
+      </div>
+    </div>
   );
 }
