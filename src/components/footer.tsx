@@ -3,7 +3,7 @@ export default function Footer() {
     <footer class="fixed bottom-0 w-full py-4">
       <div class="container mx-auto text-center">
         <a
-          href="https://github.com/EMachad0"
+          href="https://github.com/EMachad0/devo-ir-pra-udesc-hoje"
           target="_blank"
           rel="noopener noreferrer"
           class="hover:underline"
