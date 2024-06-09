@@ -1,32 +1,43 @@
-# SolidStart
+<h1 align="center">
+  <br>
+    Devo Ir Pra UDESC Hoje?
+  <br>
+</h1>
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+<p align="center">
+    <img src="https://img.shields.io/badge/SolidJS-2c4f7c?style=for-the-badge&logo=solid&logoColor=c8c9cb" alt="solidJs">
+    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
+    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwind">
+</p>
 
-## Creating a project
 
-```bash
-# create a new project in the current directory
-npm init solid@latest
+<div align='center'>
 
-# create a new project in my-app
-npm init solid@latest my-app
-```
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.en.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.md)
 
-## Developing
+</div>
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+# Por Que Este Projeto?
 
-```bash
-npm run dev
+Este projeto é um simples hobby inspirado pelo site [shouldideploy.today](https://shouldideploy.today/).
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Criei este projeto para experimentar com SolidJS, TailwindCSS, TypeScript, e para me divertir um pouco.
 
-## Building
+Não tenho nada contra a UDESC.
 
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
+# Contribuindo
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
+Este projeto está aberto a contribuições.
 
-## This project was created with the [Solid CLI](https://solid-cli.netlify.app)
+Se você quiser adicionar uma nova mensagem, basta criar uma issue no GitHub ou um pull request com sua mudança.
+
+Você pode criar uma issue e eu adicionarei para você o mais rápido possível.
+
+Mas eu encorajo você a criar um pull request com sua mensagem, é uma boa maneira de aprender como contribuir para projetos open source, aprender um pouco sobre Git, GitHub, JavaScript e desenvolvimento web.
+
+Veja as diretrizes de [CONTRIBUIÇÃO](/docs/contributing.md) para mais informações.
+
+# Licença
+
+Este projeto está sob a licença MIT. Veja a [LICENÇA](LICENSE) para mais informações.
