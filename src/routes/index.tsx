@@ -2,7 +2,7 @@ import messages from '~/helpers/messages';
 import { createSignal, onMount } from 'solid-js';
 
 export default function Home() {
-  const messagesShuffled = messages.toSorted(() => Math.random() - 0.5);
+  const messagesShuffled = messages.sort(() => Math.random() - 0.5);
   const [messageIndex, setMessageIndex] = createSignal<number>(0);
 
   const message = () => messagesShuffled[messageIndex()];
