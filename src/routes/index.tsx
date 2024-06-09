@@ -27,20 +27,20 @@ export default function Home() {
   return (
     <div class={`h-screen flex flex-col ${bg()}`}>
       <div class="container m-auto">
-        <h2 class="font-mono text-6xl mb-8 flex flex-row justify-center">
-          Devo ir pra&nbsp;<p class="font-semibold">UDESC</p>&nbsp;hoje?
+        <h2 class="font-mono text-nowrap text-3xl md:text-6xl mb-8 flex flex-col lg:flex-row justify-center text-center">
+          Devo ir pra<span class="font-semibold lg:px-5">UDESC</span>hoje?
         </h2>
-        <h1 class="font-bold text-balance text-8xl text-center uppercase">
+        <h1 class="font-bold text-balance text-4xl md:text-8xl text-center uppercase">
           {message().message}
         </h1>
         <button
-          class="flex flex-row font-mono mt-8 w-full justify-center"
+          class="flex flex-row font-mono mt-8 w-full justify-center text-nowrap"
           onClick={onClick}
         >
           Pressione&nbsp;
-          <div class="rounded outline outline-2 outline-offset-2 outline-neutral-400">
+          <span class="rounded outline outline-2 outline-offset-2 outline-neutral-400">
             Espaço
-          </div>
+          </span>
           &nbsp;ou clique aqui
         </button>
       </div>
