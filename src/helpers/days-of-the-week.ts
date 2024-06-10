@@ -20,7 +20,7 @@ const daysOfTheWeek: Record<DayOfTheWeek, WeekdayNumbers> = {
 };
 
 export function isDayOfTheWeek(day: DayOfTheWeek): boolean {
-  const today = DateTime.now().weekday;
+  const today = DateTime.utc().setZone('America/Sao_Paulo').weekday;
   return today === daysOfTheWeek[day];
 }
 
