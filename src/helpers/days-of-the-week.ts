@@ -21,8 +21,8 @@ const daysOfTheWeek: Record<DayOfTheWeek, WeekdayNumbers> = {
 
 export function isDayOfTheWeek(day: DayOfTheWeek): boolean {
   const today = DateTime.utc().setZone('America/Sao_Paulo').weekday;
-
-  return today === daysOfTheWeek[day];
+  return today
+    === daysOfTheWeek[day];
 }
 
 export const isWeekend = (): boolean =>
