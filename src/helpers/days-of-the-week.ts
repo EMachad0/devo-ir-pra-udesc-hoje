@@ -1,3 +1,5 @@
+import { DateTime, WeekdayNumbers } from 'luxon';
+
 export type DayOfTheWeek =
   | 'monday'
   | 'tuesday'
@@ -7,18 +9,18 @@ export type DayOfTheWeek =
   | 'saturday'
   | 'sunday';
 
-const daysOfTheWeek: Record<DayOfTheWeek, number> = {
-  sunday: 0,
+const daysOfTheWeek: Record<DayOfTheWeek, WeekdayNumbers> = {
   monday: 1,
   tuesday: 2,
   wednesday: 3,
   thursday: 4,
   friday: 5,
   saturday: 6,
+  sunday: 7,
 };
 
 export function isDayOfTheWeek(day: DayOfTheWeek): boolean {
-  const today = new Date().getDay();
+  const today = DateTime.now().weekday;
   return today === daysOfTheWeek[day];
 }
 
