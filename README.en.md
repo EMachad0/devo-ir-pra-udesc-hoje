@@ -12,8 +12,8 @@
 
 <div align='center'>
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.en.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/EMachad0/devo-ir-pra-udesc-hoje/blob/master/README.en.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/EMachad0/devo-ir-pra-udesc-hoje/blob/master/README.md)
 
 </div>
 
