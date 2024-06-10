@@ -13,7 +13,9 @@ export default function Home() {
   const bg = () => (message().positive ? 'bg-green-500' : 'bg-red-500');
 
   const onClick = () => {
-    do {setMessageIndex((prev) => (prev + 1) % messagesShuffled.length);} while (!message().condition);
+    do {
+      setMessageIndex((prev) => (prev + 1) % messagesShuffled.length);
+    } while (!message().condition);
   };
 
   onMount(() => {
