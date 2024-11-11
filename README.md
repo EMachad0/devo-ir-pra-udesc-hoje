@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
-    Devo Ir Pra UDESC Hoje?
+
+[Devo Ir Pra UDESC Hoje?](https://devoirpraudeschoje.netlify.app/)
   <br>
 </h1>
 
